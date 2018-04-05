@@ -1,0 +1,17 @@
+net: "densenet40_12.prototxt"
+test_iter: 200
+test_interval: 1000
+base_lr: 0.01
+display: 50
+max_iter: 30000
+lr_policy: "multistep"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0001
+solver_mode: GPU
+stepvalue: 10000
+stepvalue: 20000
+type: "Nesterov"
+snapshot: 1000
+snapshot_prefix: "DENSE"
+average_loss: 1000
