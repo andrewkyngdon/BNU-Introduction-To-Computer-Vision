@@ -58,6 +58,7 @@ DenseNet-40-12|90.05|0.317
 - CIFAR-10 requires heavy data augmentation to achieve state-of-the-art. The preprocessing performed here was light and done for pedagogical purposes.
 - SqueezeNet Residual was initialised using these [weights trained on ImageNet](https://github.com/songhan/SqueezeNet-Residual).
 - DenseNet-40-12 can achieve 92.91% Top-1 accuracy out of the box on CIFAR-10 without data augmentation, [according to its authors](https://github.com/liuzhuang13/DenseNetCaffe). However, considerably longer training appears to be required than what was done here.
+- A Jupyter Notebook `Visualise CIFAR10.ipynb` can be used to visualise test image data, convolutional filters and neurons. Global pooling layer activations can be visualised using the dimensionality reduction technique of [t-SNE](https://lvdmaaten.github.io/tsne/). Simply type `jupyter notebook` at the command prompt and open the file in your browser. Edit as necessary.
 
 ### LSI Far Infrared Pedestrian Database - Classification
 
